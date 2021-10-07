@@ -1,0 +1,42 @@
+
+
+
+
+:root {
+    --bs-font-sans-serif: "Inter", sans-serif;
+}
+
+nav {
+    backdrop-filter: blur(3px);
+}
+
+@media (max-width: 768px) {
+    nav {
+        background: #FFFB33;
+    }
+}
+
+main.container {
+    height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+    main.container {
+        height: auto;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 120%;
+}
+
+blockquote cite {
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 0.05rem;
+    color: #333;
+    padding-left: 0.5rem;
+}
